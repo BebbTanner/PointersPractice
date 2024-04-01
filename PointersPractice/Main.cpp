@@ -3,14 +3,16 @@ This is just a program that I am using to understand strings more.
 */
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
 
-	string food = "Pizza"; // A food variable of type string
+	int x = 10;				//X = 10
+	int* ptr = &x;			//Pointer that is set to the memory address location of x.
 
-	cout << food << endl;  // Outputs the value of food (Pizza)
-	cout << &food << endl; // Outputs the memory address of food (0x6dfed4)
+	cout << x << endl;		//Print out the value stored in x
+	cout << ptr << endl;	//Print out the pointer that is pointing to the memory address location of x. 
 
 	return 0;
 
