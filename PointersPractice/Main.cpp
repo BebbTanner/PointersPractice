@@ -1,5 +1,6 @@
 /*
 This is just a program that I am using to understand strings more.
+I am not sure what else I would like to do. I remember that pointers can be used with arrays, but I am not sure how and I will have to look into it.
 */
 
 #include <iostream>
